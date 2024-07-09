@@ -5,6 +5,7 @@
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/1.3/z1/deployment.yaml)
 
 - Вывод до создания реплики и после
+
 ![image](https://github.com/bogkofe/Kubernetes/blob/master/1.3/files/1.png)
 
 ![image](https://github.com/bogkofe/Kubernetes/blob/master/1.3/files/2.png)
