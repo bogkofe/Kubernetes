@@ -1,13 +1,13 @@
 ## Домашнее задание к занятию «Запуск приложений в K8S»
 
 # Задание 1
-- Создал Deployment приложения, состоящего из двух контейнеров — nginx и multitool.
+- Создал Deployment приложения, состоящего из двух контейнеров — nginx и multitool
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/1.3/z1/deployment.yaml)
 
-- Вывод до создания реплики и после:
+- Вывод до создания реплики и после
 ![image](https://github.com/bogkofe/Kubernetes/blob/master/1.3/files/1.png)
 
-![image](https://github.com/bogkofe/Kubernetes/blob/master/1.3/files/1.png)
+![image](https://github.com/bogkofe/Kubernetes/blob/master/1.3/files/2.png)
 
 - Создал service, который обеспечит доступ до реплик приложений из п.1
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/1.3/z1/service.yaml)
