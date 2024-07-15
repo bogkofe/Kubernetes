@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: z1
+  template:
+    metadata:
+      labels:
+        app: z1
+    spec:
+      volumes:
+      - name: vol
+        emptyDir: {}
+      containers:
+      - name: busybox
+        image: busybox
+        volumeMounts:
+        - name: vol
+          mountPath: /home
+        command: ["/bin/sh"]
+        args: ["-c", "while true; do date >> /home/date.txt; sleep 5; done"]
+      - name: multitool
+        image: praqma/network-multitool
+        volumeMounts:
+        - name: vol
+          mountPath: /home
