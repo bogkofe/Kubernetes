@@ -29,13 +29,14 @@ PV с политикой ReclaimPolicy "Retain" не удаляется авто
 - Включил и настроил NFS-сервер на MicroK8S.
 
 - Создал Deployment приложения состоящего из multitool, и подключил к нему PV, созданный автоматически на сервере NFS
+
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/2.2/z2/deployment_z2.yaml)
 
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/2.2/z2/pvc_z2.yaml)
 
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/2.2/z2/sc_z2.yaml)
 
-![image](https://github.com/bogkofe/Kubernetes/blob/master/2.2/files/5.png)
+![image](https://github.com/bogkofe/Kubernetes/blob/master/2.2/files/4.png)
 
 - Демонстрация возможности чтения и записи файла изнутри пода
-![image](https://github.com/bogkofe/Kubernetes/blob/master/2.2/files/6.png)
+![image](https://github.com/bogkofe/Kubernetes/blob/master/2.2/files/5.png)
