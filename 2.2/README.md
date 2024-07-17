@@ -2,9 +2,11 @@
 
 # Задание 1
 - Создал  Deployment приложения, состоящего из контейнеров busybox и multitool
+
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/2.2/z1/deployment_z1.yaml)
 
 - Создал PV и PVC для подключения папки на локальной ноде, которая будет использована в поде
+
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/2.2/z1/pv_z1.yaml)
 
 [Ссылка на yaml файл](https://github.com/bogkofe/Kubernetes/blob/master/2.2/z1/pvc_z1.yaml)
