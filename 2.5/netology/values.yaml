@@ -1,0 +1,28 @@
+backend:
+  name: "backend"
+  replicas: 1
+  containerName: "multitool"
+  image:
+    repository: praqma/network-multitool
+    tag: 2.0.0
+  containerPort: 80
+  serviceName: "backend-service"
+  serviceProtocol: "TCP"
+  servicePort: 9001
+  targetPort: 80
+
+frontend:
+  name: "frontend"
+  replicas: 3
+  containerName: "nginx"
+  image:
+    repository: nginx
+    tag: 1.27.0
+  containerPort: 80
+  serviceName: "frontend-service"
+  serviceProtocol: "TCP"
+  servicePort: 9002
+  targetPort: 80
+
+version:
+  name: "3-1-0"
